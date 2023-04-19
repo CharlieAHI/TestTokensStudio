@@ -33,7 +33,7 @@
           "type": "color"
         },
         "High Emphasis": {
-          "value": "#e2e2e2cc",
+          "value": "#313131",
           "type": "color"
         },
         "Low Emphasis": {
@@ -202,7 +202,11 @@
         "Theme Default": "source",
         "Theme Brand X": "enabled"
       },
-      "$figmaStyleReferences": {}
+      "$figmaStyleReferences": {
+        "Theme Brand X.Accent.Primary": "S:1181b25fed89e9a4249a4152743261ac349607cf,",
+        "Theme Brand X.Accent.Secondary": "S:07b0737b53c8b6f14c63126951bacb5d382d6844,",
+        "Theme Brand X.Accent.Tertiary": "S:b3490f2bcccbb82bc33eccf0d08b914823d64064,"
+      }
     }
   ],
   "$metadata": {
