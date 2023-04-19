@@ -44,17 +44,26 @@
     }
   },
   "Dark Mode": {
-    "Colours - Dark Mode": {
+    "Colour - Core": {
       "Primary": {
-        "value": "#6c55ff",
-        "type": "color"
+        "value": "#6C55FF",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0",
+              "space": "lch"
+            }
+          }
+        }
       },
       "Secondary": {
-        "value": "#ac9fff",
+        "value": "#AC9FFF",
         "type": "color"
       },
       "Tertiary": {
-        "value": "#e4e0ff",
+        "value": "#E4E0FF",
         "type": "color"
       },
       "Error": {
@@ -66,23 +75,23 @@
         "type": "color"
       },
       "Surface": {
-        "value": "#1e1e1e",
-        "type": "color"
-      },
-      "High Emphasis": {
-        "value": "#e2e2e2",
-        "type": "color"
-      },
-      "Low Emphasis": {
-        "value": "#e2e2e2",
+        "value": "#1E1E1E",
         "type": "color"
       },
       "Outline": {
-        "value": "#3b3b3b",
+        "value": "#3B3B3B",
+        "type": "color"
+      },
+      "High Emphasis": {
+        "value": "#E2E2E2",
+        "type": "color"
+      },
+      "Low Emphasis": {
+        "value": "#E2E2E2",
         "type": "color"
       },
       "Surface Overlay": {
-        "value": "#000000cc",
+        "value": "#080808",
         "type": "color"
       }
     }
@@ -92,7 +101,8 @@
       "id": "ea0270110480ccb6e5a5d9c686806046df08d4cf",
       "name": "Core",
       "selectedTokenSets": {
-        "Core": "source"
+        "Core": "source",
+        "Dark Mode": "disabled"
       },
       "$figmaStyleReferences": {}
     },
@@ -100,8 +110,8 @@
       "id": "b6f9aa0261208bc2e7ced62dd0f9c0de6f1b60d3",
       "name": "Dark Mode",
       "selectedTokenSets": {
-        "Dark Mode": "enabled",
-        "Core": "source"
+        "Core": "source",
+        "Dark Mode": "enabled"
       },
       "$figmaStyleReferences": {}
     }
