@@ -1,0 +1,115 @@
+{
+  "Core": {
+    "Colour - Core": {
+      "Primary": {
+        "value": "#2507e7",
+        "type": "color"
+      },
+      "Secondary": {
+        "value": "#55bff0",
+        "type": "color"
+      },
+      "Tertiary": {
+        "value": "#f1fafd",
+        "type": "color"
+      },
+      "Error": {
+        "value": "#b00020",
+        "type": "color"
+      },
+      "Delete": {
+        "value": "#ff3838",
+        "type": "color"
+      },
+      "Surface": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "Outline": {
+        "value": "#0000001f",
+        "type": "color"
+      },
+      "High Emphasis": {
+        "value": "#000000cc",
+        "type": "color"
+      },
+      "Low Emphasis": {
+        "value": "#00000099",
+        "type": "color"
+      },
+      "Surface Overlay": {
+        "value": "#21212114",
+        "type": "color"
+      }
+    }
+  },
+  "Dark Mode": {
+    "Colours - Dark Mode": {
+      "Primary": {
+        "value": "#6c55ff",
+        "type": "color"
+      },
+      "Secondary": {
+        "value": "#ac9fff",
+        "type": "color"
+      },
+      "Tertiary": {
+        "value": "#e4e0ff",
+        "type": "color"
+      },
+      "Error": {
+        "value": "#b00020",
+        "type": "color"
+      },
+      "Delete": {
+        "value": "#ff3838",
+        "type": "color"
+      },
+      "Surface": {
+        "value": "#1e1e1e",
+        "type": "color"
+      },
+      "High Emphasis": {
+        "value": "#e2e2e2",
+        "type": "color"
+      },
+      "Low Emphasis": {
+        "value": "#e2e2e2",
+        "type": "color"
+      },
+      "Outline": {
+        "value": "#3b3b3b",
+        "type": "color"
+      },
+      "Surface Overlay": {
+        "value": "#000000cc",
+        "type": "color"
+      }
+    }
+  },
+  "$themes": [
+    {
+      "id": "ea0270110480ccb6e5a5d9c686806046df08d4cf",
+      "name": "Core",
+      "selectedTokenSets": {
+        "Core": "source"
+      },
+      "$figmaStyleReferences": {}
+    },
+    {
+      "id": "b6f9aa0261208bc2e7ced62dd0f9c0de6f1b60d3",
+      "name": "Dark Mode",
+      "selectedTokenSets": {
+        "Dark Mode": "enabled",
+        "Core": "source"
+      },
+      "$figmaStyleReferences": {}
+    }
+  ],
+  "$metadata": {
+    "tokenSetOrder": [
+      "Core",
+      "Dark Mode"
+    ]
+  }
+}
