@@ -1,0 +1,123 @@
+{
+  "Theme Default": {
+    "Primary": {
+      "value": "#2507e7",
+      "type": "color"
+    },
+    "Secondary": {
+      "value": "#55bff0",
+      "type": "color"
+    },
+    "Tertiary": {
+      "value": "#f1fafd",
+      "type": "color"
+    },
+    "Error": {
+      "value": "#b00020",
+      "type": "color"
+    },
+    "Delete": {
+      "value": "#ff3838",
+      "type": "color"
+    },
+    "Surface": {
+      "value": "#1e1e1e",
+      "type": "color"
+    },
+    "Risk-Low": {
+      "value": "#3dc65e",
+      "type": "color"
+    },
+    "Risk-Low-Medium": {
+      "value": "#82d89e",
+      "type": "color"
+    },
+    "Risk-Medium": {
+      "value": "#fecb2f",
+      "type": "color"
+    },
+    "Risk-High": {
+      "value": "#fd9526",
+      "type": "color"
+    },
+    "Risk-Very-High": {
+      "value": "#fc3e39",
+      "type": "color"
+    },
+    "Risk-Crisis": {
+      "value": "#aa1117",
+      "type": "color"
+    },
+    "Risk Label - Low Low Medium": {
+      "value": "#004d13",
+      "type": "color"
+    },
+    "Risk Label - Medium": {
+      "value": "#4d3a00",
+      "type": "color"
+    },
+    "Risks Label - High": {
+      "value": "#462400",
+      "type": "color"
+    },
+    "Risk Label - Very High": {
+      "value": "#2c0100",
+      "type": "color"
+    },
+    "Outline": {
+      "value": "#0000001f",
+      "type": "color"
+    },
+    "High Emphasis": {
+      "value": "#e2e2e2cc",
+      "type": "color"
+    },
+    "Low Emphasis": {
+      "value": "#00000099",
+      "type": "color"
+    },
+    "Surface Overlay": {
+      "value": "#21212114",
+      "type": "color"
+    },
+    "Pillar - Sleep": {
+      "value": "#7e0ac5",
+      "type": "color",
+      "description": "Pillar colour for Sleep"
+    },
+    "Pillar - Nutrition": {
+      "value": "#8bb671",
+      "type": "color",
+      "description": "Pillar colour for nutrition"
+    },
+    "Pillar - Activity": {
+      "value": "#ff7810",
+      "type": "color",
+      "description": "Pillar colour for Activity"
+    },
+    "Pillar - Mind": {
+      "value": "#ffa600",
+      "type": "color",
+      "description": "Pillar colour for Mind"
+    }
+  },
+  "Theme Dark Mode": {},
+  "Theme Brand X": {},
+  "$themes": [
+    {
+      "id": "8ad9a7a3b083a1043cbe8bee11affd8a86870185",
+      "name": "Theme Default",
+      "selectedTokenSets": {
+        "Theme Default": "enabled"
+      },
+      "$figmaStyleReferences": {}
+    }
+  ],
+  "$metadata": {
+    "tokenSetOrder": [
+      "Theme Default",
+      "Theme Dark Mode",
+      "Theme Brand X"
+    ]
+  }
+}
